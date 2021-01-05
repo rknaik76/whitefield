@@ -1,0 +1,1 @@
+az vm run-command invoke --subscription 8292348b-9681-47cc-b372-ac6cab635890 -g testrg -n testvm --command-id RunShellScript --scripts "cat /etc/redhat-release"

@@ -7,7 +7,7 @@ provider "azurerm" {
   features {}
 }
 
-resource "azurerm_resource_group" "samplerg01" {
+resource "azurerm_resource_group" "samplerg02" {
   name = "samplerg02"
   location = "eastus"
 

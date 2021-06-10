@@ -14,7 +14,7 @@ variable "client_id" {
   type = string
 }
 
-v ariable "client_secret" {
+variable "client_secret" {
   type = string
 }
 

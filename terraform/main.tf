@@ -8,7 +8,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "samplerg02" {
-  name = "samplerg03"
+  name = "samplerg04"
   location = "eastus"
 
   tags = {

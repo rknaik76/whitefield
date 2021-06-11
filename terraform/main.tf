@@ -24,8 +24,8 @@ resource "azurerm_subnet" "web" {
 
 resource "azurerm_network_interface" "webserver001" {
   name                = "webserver001-nic"
-  location            = azurerm_resource_group.myrg.name
-  resource_group_name = azurerm_resource_group.myrg.location
+  location            = azurerm_resource_group.myrg.location
+  resource_group_name = azurerm_resource_group.myrg.name
 
   ip_configuration {
     name                          = "internal"

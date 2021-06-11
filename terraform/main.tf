@@ -45,7 +45,7 @@ resource "azurerm_linux_virtual_machine" "webserver001" {
   ]
 
   admin_ssh_key {
-    username   = "adminuser"
+    username   = "ranjit"
     public_key = file(".ssh/authorized_keys")
   }
 
